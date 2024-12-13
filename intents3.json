@@ -1,0 +1,319 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day","Wassup?","How's it going?","How're you today?","Hope you're well","How goes it","Great to speak to you","Bonjour"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?", "Hey I'm super pumped to help you out today! Hope you're ready to start."],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time","Adios amigo!","Speak soon","Catch you later","Ttyl"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome", "Thanks for helping me","Many thanks","Much appreciated","Much obliged","Fantastic!"],
+         "responses": ["Happy to help!", "All love!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {
+        "tag": "FRONT END",
+        "patterns":  [ "Frontend Developer"] ,
+        "responses": ["Frontend Developers specialise in visual user interfaces, aesthetics and layouts. They work on creating web apps and websites as their codes run on web browsers and on the computer of the site user. Their role is solely focused on understanding human-machine interaction and design more than theory. Their skills consist of the design of user interface (UI), design of user experience (UX), CSS, JavaScript, HTML, and UI Frameworks."],
+        "context": [""]
+        },
+        {
+        "tag": "BACK END",
+        "patterns":  [ "Backend Developer"] ,
+        "responses": ["The Backend Developer specialises in the design, implementation, functional logic and performance of a system that runs on a machine which is remote from the end-user. The backend of a website is made up of a server, application and database and a Backend Developer helps to build and maintain these components. By doing this they are enabling the user-facing side of a website to exist. Their development skills are Java, C++, Ruby, Python, Scala and Go"],
+        "context": [""]
+        },
+        {
+        "tag": "STACK",
+        "patterns":  [ "Full Stack Developer"] ,
+        "responses": ["A Full Stack Developer does both the frontend and backend work for a site. They have the skills which are required to create a fully functioning website. Being a Full Stack Developer will open up more opportunities as you will be required to work on both the server side and client side. The skills of a Full Stack Developer would consist of a combination of a Frontend and Backend Developer. A Full Stack Developer should be able to set up Linux servers, write server-side APIs, and client-side JavaScript powering an application and turn a design eye to CSS"],
+        "context": [""]
+        },
+        {
+        "tag": "MOBILE",
+        "patterns":  [ "Mobile Developer"] ,
+        "responses": ["Mobile Developers write codes for applications that run on mobile devices such as tablets and smartphones. Mobile Developers only started to become popular after the boom of mobile devices in the early 2000s and the growth of the smartphone market. A Mobile Developer understands mobile operating systems such as iOS and android and the environment and frameworks used to create software on these systems. They have a variety of development skills, such as Java, Swift, Objective-C, Application Programming Interfaces, web development languages and cross-platform mobile suites"],
+        "context": [""]
+        },
+        {
+        "tag": "GAME",
+        "patterns":  [ "Game Developer"] ,
+        "responses": ["Being a Game Developer is very demanding and complicated. They specialise in writing games and have specific knowledge and skills in designing engaging interactive gaming experiences. Game Developers use frameworks such as DirectX, OpenGL, Unity 3D, WebGL and programming languages such as C, C++ and Java. On mobile devices, Swift and Java are used for iOS and Android games"],
+        "context": [""]
+        },
+        {
+        "tag": "SCIENTIST",
+        "patterns":  [ "Data Scientist Developer"] ,
+        "responses": ["Data Scientist Developers write programs to analyse data sets. They are normally in charge of statistical analysis, machine learning and predictive modelling. The skill set a Data Scientist should have, would need to cover several science-related things. For example, programming languages (R, Python), different techniques that are a valid approach, being familiar with machine learning methods, understanding and knowing multivariable calculus and linear algebra and dealing with imperfections in data. Being able to communicate all imperfections and calculus is incredibly important for these types of developers."],
+        "context": [""]
+        },
+        {
+        "tag": "SOFTWARE",
+        "patterns":  [ "Software Developer"] ,
+        "responses": ["A Software Developer plays a key role in identifying, designing, installing and testing a software system that has been built for a company from the ground up. They create software systems to ensure that the processes are running as expected. The skills needed for a Software Developer are coding languages such as JavaScript, C++, Ruby, C# and .Net to name a few. These types of Developers should also be comfortable writing and analysing queries and working with different frameworks."],
+        "context": [""]
+        },
+        {
+        "tag": "WEB",
+        "patterns":  [ "Web Developer"] ,
+        "responses": ["Web Developers have a similar job to Software Developers; however, they specialise in creating websites. Although they haven’t been around for as long as some other developers and they are only required to have basic knowledge when entering the role, web developers are increasing just as much as other Developers in today’s world. Web Developers are required to know HTML, CSS, FTP, JavaScript and WordPress"],
+        "context": [""]
+        },
+        {
+        "tag": "SECURITY",
+        "patterns":  [ "Security Developer"] ,
+        "responses": ["Security Developers specialise in creating systems, methods and procedures to test the security of software systems and fix security flaws. They use a variety of tools to complete their jobs such as scripting languages like Python and Ruby. They also use coding languages such as C and C++ to read and understand operating systems. Their job aims to ethically hack systems to discover their vulnerabilities."],
+        "context": [""]
+        },
+        {
+        "tag": "JAVA",
+        "patterns":  ["Java Developer"] ,
+        "responses": [" Java systems, Core java skills, Build Tools, Java EE components,Testing Tools, Big Data"],
+        "context": [""]
+        },
+        {
+        "tag": "PYTHON",
+        "patterns":  ["Python Developer"] ,
+        "responses": ["Django, AWS, Python, Expertise in flask framework, JavaScript, statistical learning models, CSS 3, AI/ML Fundamentals, Python framework, Relational Mapper libraries, fine-tune AI/ML-based algorithms, Python developer, Django framework, HTML5, Pytest, Python programming, web application framework, Python test framework tools"],
+        "context": [""]
+        },
+        {"tag": "DATABASE",
+        "patterns":  [ "MySQL Developer" ],
+        "responses": ["Computer Science,Database Administration,Database Management,Database Queries,Databases,MySQL,Optimization,Performance Tuning,Problem Solving,SQL,Programming Languages,Backup & Restore,Stored Procedures,Database Trigger."],
+        "context": [""]
+        },
+        {
+        "tag": "ADMINISTRATION",
+        "patterns": ["SQL Database Administrator"],
+        "responses": ["Programming Languages,Architecture Frameworks,Business Requirements,Database Administration,Databases,Problem Solving,Project Management,Project Planning,SQL,Software Development Life Cycle (SDLC)"],
+        "context": [""]
+        },
+        {"tag": "MYSQL DEVELOPER",
+        "patterns":  [ "MySQL Developer" ],
+        "responses": ["Computer Science,Database Administration,Database Management,Database Queries,Databases,MySQL,Optimization,Performance Tuning,Problem Solving,SQL,Programming Languages,Backup & Restore,Stored Procedures,Database Trigger."],
+        "context": [""]
+        },
+        
+        
+        {"tag": "SQL DATABASE ADMINISTRATOR",
+        "patterns": ["SQL Database Administrator"],
+        "responses": ["Programming Languages,Architecture Frameworks,Business Requirements,Database Administration,Databases,Problem Solving,Project Management,Project Planning,SQL,Software Development Life Cycle (SDLC)"],
+        "context": [""]
+        },
+        
+        
+        {"tag": "DATA ANALYST",
+        "patterns":["Data Analyst"],
+        "responses": ["Data Analytics,Data Science,Query Languages,Clarity,Databases,Design Review,PySpark,Query Writing,Statistical Programming,Technical Discussions,Analytics,Big Data Analytics,Business Analysis,Business Requirements,Communication,Creative Problem Solving"],
+        "context": [""]
+        },
+        
+        
+        {"tag": "POSTGRE SQL DEVELOPER",
+        "patterns":["PostgreSQL Developer"],
+        "responses": ["Database Design,Database Development,Databases,Microsoft SQL Server,Reporting Tool,SQL,SQL Server Integration Services (SSIS),SQL Server Reporting Services (SSRS),Transact-SQL (T-SQL),Oracle"],
+        "context": [""]
+        },
+        
+        
+        {"tag": "DATABASE ADMINISTRATOR",
+        "patterns":["Database Administrator"],
+        "responses": ["MSSQL,DBA,MS,SQL Server,DBA,SQL Server","Backup & Recovery Systems,Databases,Exadata,GoldenGate,Oracle Database Administration,Patch Management,RMAN,Replication (Computing),Stressful Situations,Troubleshooting"],
+        "context": [""]
+        },
+        
+        
+        
+        
+        {"tag": "SQL DEVELOPER",
+        "patterns":["SQL Developer"],
+        "responses":["Amazon Web Services (AWS),Change Management,Database Design,Database Development,Online Transaction Processing (OLTP),Oracle Database,Oracle SQL Developer,PL/SQL,Performance Tuning,SQL PL,Tactical Planning"],
+        "context": [""]
+        },
+        
+        
+        
+        {"tag": "SQL DATA ANALYST",
+        "patterns":["SQL Data Analyst"],
+        "responses":["SQL,Python,Tableau,PowerBI,Excel,R,NoSQL,Hadoop,Spark,SAS,ETL,MongoDB"],
+        "context": [""]
+        },
+        
+        {"tag": "FINANCIAL ANALYST",
+        "patterns":["Business/Financial Data Analyst"],
+        "responses":["Finance,Accounting,Financial Analysis,Reporting,Excel,Analytical,Forecasting"],
+        "context": [""]
+        },
+        
+        
+        {"tag": "DATA SCIENTIST",
+        "patterns":["Data Scientist"],
+        "responses":["Python,R,SAS,SQL,Statistics and probability,Data wrangling and database management,MySQL,MongoDB,Oracle"],
+        "context": [""]
+        },
+        
+        
+        
+        {"tag": "DATA MODELER",
+        "patterns":["Data Modeler"],
+        "responses":["Technical Proficiency in Data Structures and Databases,Knowledge of Data Modeling Standards and Best Practices,Database Design and Normalization,SQL and NoSQL Proficiency,Data Warehousing and ETL Processes,Big Data Technologies and Frameworks,Data Mining and Predictive Modeling,Machine Learning Algorithms,Data Visualization Tools and Techniques,Cloud Computing and Storage Solutions,Programming Skills in Python, R, or Java,Understanding of Data Governance and Compliance"],
+        "context": [""]
+        },
+        
+        
+        {"tag": "DATABASE PROGRAMMING",
+        "patterns":["Database Progrmmer"],
+        "responses":["SQL,NoSQL,Oracle,MySQL,PostgreSQL,MongoDB,Python,Java,Data Modeling,ETL (Extract, Transform, Load),Hadoop,Microsoft SQL Server"],
+        "context": [""]
+        },
+        
+        
+        {"tag": "DATABASE TESTING",
+        "patterns":["Database Tester"],
+        "responses":["SQL,NoSQL,Oracle,MySQL,PostgreSQL,MongoDB,Python,Java,Data Modeling,ETL (Extract, Transform, Load),Hadoop,Microsoft SQL Server"],
+        "context": [""]
+        },
+        
+        
+        {"tag": "DATABASE ARCHITECT",
+        "patterns":["Database Architect"],
+        "responses":["ETL,SQL Server,Regression Test Cases,Test Plan,Regression,Back-End,Java,Data Warehouse, End Testing, Test Scenarios,Data Validation,Test Strategy,HP ALM,Toad,Data Models"],
+        "context": [""]
+        },
+        
+        
+        
+        {"tag": "DATABASE ENGINEERING",
+        "patterns":["Database Engineer"],
+        "responses":["Database Design and Modeling,SQL Proficiency,Data Warehousing and ETL Processes,Performance Tuning and Optimization,Knowledge of Database Management Systems (DBMS),Cloud Database Services and Architecture,Big Data Technologies and NoSQL Databases,Data Security and Encryption,Backup and Disaster Recovery Planning,Scripting and Automation Skills"],
+        "context": [""]
+        },
+        
+        
+        {"tag": "CONSULTANTS",
+        "patterns":["Database Consultants"],
+        "responses":["Big Data Technologies,Data Warehousing,Cloud computing tools,Database Management, Machine learning, Data modeling and schema design,Real-Time Processing,Data visualization,Data ingestion tools,AWS Engineering Skills"],
+        "context": [""]
+        },
+        {"tag": "NETWORK",
+         "patterns": ["Network Security Engineer"],
+         "responses": ["This is crucial for any organization's cybersecurity team. A network security engineer is responsible for protecting company assets from threats. A firm quality check on designing, implementing, and protecting robust security systems for the organization is vital to this role.Bachelor's degree in computer science, information technology, cybersecurity, or a similar field.IT Networking and Programming.Cyber Laws and Compliance Knowledge.Firewall Design, Configuration, Maintenance, and Administration."],
+         "context": [""]
+        },
+		{"tag": "CYBER SECURITY ANALYST",
+         "patterns": ["Cyber Security Analyst"],
+         "responses": ["Implementing security systems to counter and stop threats is the primary role of a Cybersecurity Analyst. Identifying vulnerabilities in the system and maintaining systems is a vital part of this role.Bachelor's degree in computer science, cybersecurity, infosec, or a similar field.Proprietary Network Management.Data Encryption.Firewall Design, Configuration, and Maintainance."],
+         "context": [""]
+        },
+		{"tag": "SECURITY ARCHITECT",
+         "patterns": ["Security Architect"],
+         "responses": ["As the name suggests, this person has a primary role in developing the architecture for the computer and network security of the organization. Researching, planning, and designing security elements are vital to this role.Bachelor's degree in computer science or a similar field.Master's degree in Cybersecurity.TCP/IP Network and Networking Security Knowledge.Risk Management.Protocol Encryption"],
+         "context": [""]
+        },
+		{"tag": "CYBER SECURITY MANAGER",
+         "patterns": ["Cyber Security Manager"],
+         "responses": ["A cybersecurity manager manages and implements a plan of action when the company faces IT issues and network breaches. A manager plans and implements a management protocol for countering and solving software and network threats.Bachelor's degree in IT engineering, cybersecurity, system engineering, or computer programming.Proprietary Network Management.Data Encryption.Firewall Design, Configuration, and Maintainance."],
+         "context": [""]
+        },
+		{"tag": "CISO",
+         "patterns": ["Chief Information Security Officer (CISO)"],
+         "responses": ["According to a report by PWC, over 80 percent of companies now have a CISO on the management team. This trend shows that companies have grown aware of the threats of cyber crimes and the potential damage such attacks can cause. The CISO is a senior-level executive within an organization that ensures that the cyber security plan is aligned with the business’s vision, operations, and technologies. The CISO works with the staff to identify, develop, implement, and maintain processes across the organization to ensure there are no security breaches. They respond to incidents and set up appropriate standards and controls to mitigate security risks without causing any interruption to the business. They are also responsible for overseeing the implementation of security policies and procedures within the organization."],
+         "context": [""]
+        },
+		{"tag": "INFORMATION SECURITY MANAGER",
+         "patterns": ["Information Security Manager"],
+         "responses": ["An information security manager detects loopholes that make information systems susceptible to attacks. They are responsible for detecting and preventing cyber threats within the company’s data, computers, and networks. Businesses can face major losses if they fail to protect sensitive customer information and violate data protection laws. Hence, large corporations hire information security managers to make sure that the company data, systems, and networks do not get hacked."],
+         "context": [""]
+        },
+		{"tag": "CYBERSECURITY ENGINEER",
+         "patterns": ["Cybersecurity Engineer"],
+         "responses": ["A cybersecurity engineer creates and executes secure network solutions. In order to strengthen technology initiatives and take them to the next level, cybersecurity engineers are an integral part of the system. There is a huge demand-supply gap in the required workforce capabilities for this position, so companies value the in-depth knowledge and experience these professionals bring to the table."],
+         "context": [""]
+        },
+		{"tag": "APPLICATION SECURITY ENGINEER",
+         "patterns": ["Application Security Engineer"],
+         "responses": ["An application security engineer looks after the stability of the internal and external applications of an organization. They would have in-depth knowledge and expertise in dealing with the privacy and compliance aspects of third-party applications such as Azure or AWS. Any organization that wants to integrate such software into its day-to-day operations would want to hire these cybersecurity professionals. Application security engineers also prevent cyber threats that disrupt the integrity of the entire application infrastructure."],
+         "context": [""]
+        },
+		{"tag": "ETHICAL",
+         "patterns": ["Ethical Hackers"],
+         "responses": ["Ethical hackers are a valuable resource to organizations because they have a lot of intuitive knowledge and skills to reveal hackers’ logic. They test and pick apart the vulnerabilities of networks, systems, and applications. They also conduct security tests daily, weekly, monthly, or quarterly depending on the needs of the organization. Ethical hackers are gaining momentum in the market today because they provide insider information to protect organizations from high-level cyberattacks."],
+         "context": [""]
+        },
+		{"tag": "INCIDENT",
+         "patterns": ["Incident Manager"],
+         "responses": ["An incident manager determines the appropriate resources and proficiencies to resolve security incidents in an organization. They form teams when something goes wrong, and take full ownership of the results. Hence, it is an executive-level role that requires leadership aptitude and problem-solving abilities. Typically, you can advance to this managerial role after obtaining suitable credentials that demonstrate your skills."],
+         "context": [""]
+        },
+		{"tag": "CONSULTANT",
+         "patterns": ["Cybersecurity Consultant"],
+         "responses": ["A cybersecurity consultant works independently with businesses with their cybersecurity issues. For this, you must have enough industry experience with professional certifications and showcase your potential to employers. Most companies usually hire cybersecurity consultants on a contractual basis."],
+         "context": [""]
+        },
+		{"tag": "CLOUD",
+         "patterns": ["Cloud Security Engineer"],
+         "responses": ["A cloud security engineer builds, maintains, and continuously improves the cloud-based networks and systems of an organization. They handle all of the organization’s cloud computing environments and core infrastructure, platforms, and software. They also provide security recommendations on service design and application development."],
+         "context": [""]
+        },
+		{"tag": "SOLUTIONS",
+         "patterns": ["Solutions Architect"],
+         "responses": ["As a Solution Architect, you are in charge of creating the overall technical vision for the solution of a business problem. You need to have excellent communication skills are you are working closely with various teams to find out what problems are being faced. You then need to have the technical knowledge to be able to create and implement the solutions. Solution Architect jobs have increased by 9% in the past year. IT architecture, infrastructure and cloud developments, DevOps, networks, database management, various operating systems, business analyst tools, and processes."],
+         "context": [""]
+        },
+		{"tag": "CLOUD ARCHITECT",
+         "patterns": ["Cloud Architect"],
+         "responses": ["A Cloud Architect is responsible for converting the technical requirements of the company into the design of the cloud infrastructure. The cloud infrastructure includes a front-end platform, back-end platform, a cloud-based delivery, and a network. You will often work with other teams including Developers and Engineers in order to build and improve on a cloud structure that meets company requirements. Cloud Architect jobs have increased by 136% in the past two years.Cloud computing, DevOps, data migration, cloud-native, cybersecurity, data centres, application program interface (API) management systems, and various programming languages."],
+         "context": [""]
+        },
+		{"tag": "DATA ARCHITECT",
+         "patterns": ["Data Architect"],
+         "responses": ["Data Architects provide their expertise to help create a proficient and secure database management system. This involves assessing which database frameworks best suit the company, as well as outlining data management governing standards and ensuring compliance with data quality policies. Data Architect jobs have increased by 186% in the past two years.  Data management, data governance, data modelling, data analytics, industry frameworks, and best practices, artificial intelligence and machine learning tools, data integration, and data warehousing."],
+         "context": [""]
+        },
+		{"tag": "SECURITY ARCHITECT",
+         "patterns": ["Security Architect"],
+         "responses": ["A Security Architect is considered an advanced-level role within cybersecurity, you need to be able to predict and identify security risks within business applications, then once the risks have been identified, the Security Architect works with various teams to create a secure infrastructure in accordance with security protection standards. Security Architect jobs have increased by 40% in the past year.DevOps, application security threat modelling, security risk management, current security threats, mitigations, governance and operational security best practices."],
+         "context": [""]
+        },
+		{"tag": "TECHNICAL",
+         "patterns": ["Technical Architect"],
+         "responses": ["As a Technical Architect, you are required to set up and maintain computer networks, systems, and other company infrastructures. You work closely with Developers to help produce appropriate solutions. You need an excellent understanding of the company’s goals in order to produce the best possible technical infrastructure. Technical Architect jobs have increased by 223% in the past two years. Governance, DevOps, software development life cycles, requirement analysis, web services, enterprise architecture, and integration."],
+         "context": [""]
+        },
+		{"tag": "ENTERPRISE",
+         "patterns": ["Enterprise Architect"],
+         "responses": ["An Enterprise Architect is responsible for ensuring a company is using the appropriate technology infrastructure that aligns with the company’s business strategy. You will work with senior-level employees to determine the best possible technology solutions; it is also important to be able to stay current with technological developments and assess whether they would be a good fit for the company. They have a huge amount of responsibility in ensuring company success. Enterprise Architect jobs have increased by 67% in the past year. Cloud platform technologies, APIs, knowledge of databases and data trends, cyber security, machine learning, artificial intelligence, blockchain, industry best practices, and knowledge of emerging technologies."],
+         "context": [""]
+        },
+		{"tag": "SYSTEMS",
+         "patterns": ["Systems Architect"],
+         "responses": ["As a System Architect, you are in charge of creating, configuring, managing, and maintaining both computer and networking systems. It is your responsibility to analyse current and desired processes and outcomes and advise on the best possible combination of IT systems and components to achieve specific business goals. Systems Architect jobs have increased by 70% in the past year. Project management, knowledge of computer servers, network and system development and deployment, analytical skills, scalability, information processing fundamentals, and best practices."],
+         "context": [""]
+        },
+		{"tag": "SOFTWARE ARCHITECT",
+         "patterns": ["Software Architect"],
+         "responses": ["A Software Architect needs excellent technical knowledge as you will be involved in making executive software design decisions. A Software Architect needs to be able to predict the best software design based on business requirements whilst considering what tools and technologies they have available. You will then work with Developers and Project Managers to oversee its production. Software Architect jobs have increased by 102% in the past year. Knowledge of various programming languages, DevOps, software and application design, Unified Modelling Language, UX design, and software quality assurance principles."],
+         "context": [""]
+        },
+		{"tag": "INTEGRATION",
+         "patterns": ["Integration Architect"],
+         "responses": ["As an Integration Architect, you must be skilled in designing and managing complicated projects in addition to having a strong understanding of software development. Businesses employ a range of software tools for specific business processes, and system integration is utilised to create an organisation’s technical vision. The design of this is led by the Integration Architect, who creates this integrated strategy and model. Integration Architect jobs have increased by 10% in the past year. Cloud computing, data integration, analytical skills, application integration, API management, Service-Orientated Architecture (SOA), systems analysis, and enterprise architecture."],
+         "context": [""]
+        },
+		{"tag": "NETWORK ARCHITECT",
+         "patterns": ["Network Architect"],
+         "responses": ["Network Architects are responsible for the design, documentation, and deployment of data communication networks that meet company needs. Once it is deployed, you need to continually assess the performance and make sure the network is performing optimally. This also means you need to keep on top of network technologies and advancements in the field. Network Architect jobs have increased by 7% in the past year.  Experience with network automation tools and features, DevOps methodologies, firewalls, network security, cloud security, wide area network (WAN), local area network (LAN), and internet protocols."],
+         "context": [""]
+        }
+		
+
+    ]
+}
